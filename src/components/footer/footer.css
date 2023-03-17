@@ -1,0 +1,36 @@
+input::placeholder{
+  color: #fff;
+  opacity: 100%;
+
+}
+  .sub-btn{
+    background: #fff;
+    color: #131E47;
+    border-radius: 5px;
+    padding: 8px;
+    margin: auto auto;
+  }
+
+  .inp-txt{
+    font-size: large;
+    background: #131e47;
+    padding: 5px;
+    width: 100%;
+   }
+   h3{
+    width: 90%;
+   }
+
+  @media (width <= 1000px){
+    .inputs{
+       display: block;
+       width: 100%;
+      
+      }
+      .inp-txt{
+         margin-bottom: 3px;
+      }
+      .foot{
+        width: 90%;
+      }
+  }

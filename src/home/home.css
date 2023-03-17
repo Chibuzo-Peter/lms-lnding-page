@@ -1,0 +1,225 @@
+*{
+box-sizing: border-box;
+}
+/* .home{
+  overflow-x: hidden;
+} */
+
+ .section1 {
+  background:  #03cfd60d;
+}
+p{
+    color: #131E47;
+    margin-top: 40px;
+}
+.signup {
+  color: #fff;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1rem 30px;
+  width: 130px;
+  height: 54px;
+  background: #131e47;
+  border-radius: 8px;
+  font-weight: bold;
+} 
+.signin{
+    color: #131E47;
+    align-self: center;
+    text-align: center;
+    min-width: 130px;
+    padding: 1rem 30px;
+    height: 54px;
+    border: #131E47 1px solid;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.techhub{
+  width: 70%;
+  min-width: 300px;
+}
+.curve{
+  border-radius: 0 100px; 
+  border: 2px solid #D2CECE;
+  padding: 20px;
+}
+.codeCampComponenent::-webkit-scrollbar{
+  display: none;
+}
+.program_border{
+  border: 1px solid #203377;;
+}
+
+
+.allpad {
+  width: 100%;
+  border-top: 2px solid #b5cfff;
+  border-bottom: 2px solid #b5cfff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 170px;
+  overflow: hidden;
+}
+
+.all {
+  display: flex;
+  width: 530px;
+  justify-content:flex-start;
+  overflow: hidden;
+  background: none;
+}
+
+.all img {
+  width: 100px;
+
+}
+.moving{
+  display: flex;
+  gap: 40px;
+  animation: slide 9s linear infinite;
+  margin-left: -560px;
+  animation-delay: 1s;
+
+}
+
+@keyframes slide {
+  0%{margin-left: -560px;}
+  85%{margin-left: 0px;}
+  100%{margin-left: 0;}
+}
+
+
+.slide1 {
+  animation: slide1 2s forwards;
+  transform: translateY(-100%);
+  opacity: 0;
+  animation-delay: .5s;
+}
+
+@keyframes slide1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    transition: all 1s ease;
+    opacity: 1;
+  }
+}
+.slide2{
+  animation: slide1 2s forwards;
+  transform: translateX(-100%);
+  opacity: 0;
+  animation-delay: .5s;
+}
+@keyframes slide1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    transition: all 1s ease;
+    opacity: 1;
+  }
+
+}.slide3{
+  animation: slide1 2s forwards;
+  transform: translateX(100%);
+  opacity: 0;
+  animation-delay: .5s;
+}
+@keyframes slide1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    transition: all 1s ease;
+    opacity: 1;
+  }
+
+}
+
+.slide4{
+  animation: slide1 2s forwards;
+  transform: translateY(300px);
+  opacity: 0;
+  animation-delay: 2s;
+}
+@keyframes slide1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    transition: all .5s ease;
+    opacity: 1;
+  }
+}
+
+.slide4{
+  animation: slide1 2s forwards;
+  transform: translateY(300px);
+  opacity: 0;
+  animation-delay: 2s;
+}
+@keyframes slide1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    transition: all .5s ease;
+    opacity: 1;
+  }
+}
+
+
+.btn-dropdown {
+  border: 1px solid red;
+  width: 200px;
+  height: 200px;
+}
+
+.dropdown1 {
+  position: relative;
+
+  
+}
+
+
+.menu1 {
+  position: absolute;
+
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 0;
+
+  border: 1px solid grey;
+  width: 150px;
+}
+
+.menu1 > li {
+  margin: 0;
+
+  background-color: white;
+}
+
+.menu1 > li:hover {
+  background-color: lightgray;
+}
+
+.menu1 > li > button {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 5px;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+}
