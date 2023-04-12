@@ -13,8 +13,8 @@ const CodeCamp = (props) => {
 
   return (
     <>
-    <div className='curve mt-10 mr-10' data-aos="fade-up">
-        <div className=' block text-center mt-7'>
+    <div className=' my-5 mx-14 px-5 border-2 rounded-tr-[50px] rounded-bl-[50px] flex justify-center lg:mt-10 lg:mr-10 md:mx-10' data-aos="fade-up" >
+        <div className=' block text-center my-7'>
          <div>
            <img src={props.sticker} alt="img"  className=' ml-auto mr-auto'/>
             </div>
@@ -27,7 +27,7 @@ const CodeCamp = (props) => {
             </div>
         </div>
  
-    </div>
+    </div> 
     </>
   )
 }
